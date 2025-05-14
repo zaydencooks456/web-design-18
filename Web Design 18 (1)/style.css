@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    font-family: 'Sego UI',Tahoma, geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-hieght: 1.6;
+    padding: 20px;
+}
+
+header{
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 3rem;
+    color: #024873;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.media-block{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.media-block h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #026d86;
+}
+
+video, audio{
+    width: 100%;
+    border-radius: 8px;
+    outline:none;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
